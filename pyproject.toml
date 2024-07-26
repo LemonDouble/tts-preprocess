@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tts-preprocess"
+version = "0.1.0"
+description = ""
+authors = ["lemondouble <31124212+LemonDouble@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pysubs2 = "^1.7.2"
+moviepy = "^1.0.3"
+pydub = "^0.25.1"
+scipy = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
